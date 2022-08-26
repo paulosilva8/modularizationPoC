@@ -1,0 +1,45 @@
+platform :ios, '12.0'
+inhibit_all_warnings!
+use_frameworks!
+
+abstract_target 'ToolsContainer' do
+  pod 'Resolver', '1.5.0'
+  pod 'R.swift', '6.1.0'
+    target 'MixedLanugageExample' do
+      pod 'CocoaLumberjack', '3.6.0'
+      pod 'SDWebImage', '5.10.4'
+      pod 'AppAuth', '1.3.0'
+      pod 'Charts', '3.3.0'
+      pod 'Firebase/Analytics', '8.11.0'
+      pod 'GoogleMLKit/BarcodeScanning', '2.3.0'
+      pod 'lottie-ios', '3.3.0'
+
+      target 'MixedLanugageExampleTests' do
+        inherit! :search_paths
+
+        pod 'OCMock', '~> 3.5'
+        pod 'OHHTTPStubs', '~> 8.0'
+        pod 'OCHamcrest', '~> 7.1.2'
+      end
+
+    #target 'SmartHomeWidget'
+    #target 'SmartHomeDoorsAndWindows'
+  end
+
+  #target 'SmartHomeNotificationServiceExtension'
+  #target 'SmartHomeNotificationContentExtension'
+  #target 'NotificationExtensionCommon' do
+    #project 'NotificationExtensionCommon/NotificationExtensionCommon'
+    #target 'NotificationExtensionCommonTests' do
+    #end
+  #end
+
+end
+
+post_install do |pi|
+  pi.pods_project.targets.each do |t|
+    t.build_configurations.each do |config|
+      config.build_settings.delete 'IPHONEOS_DEPLOYMENT_TARGET'
+    end
+  end
+end
