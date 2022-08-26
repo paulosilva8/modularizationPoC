@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "6f86e9c11e37864f22ad2ac1729df5be36497ac424916cc1358d99ee4025e8e3"
+build_start_time: [1661528458, 270722866]
+build_end_time: [1661528458, 572462081]
+inputs:
+  "/Users/SIP1OVR/Documents/GitHub/modularizationPoC/MixedLanugageExample/MixedLanugageExample/ComponentSwift.swift": [1661528421, 565858840]
+  "/Users/SIP1OVR/Documents/GitHub/modularizationPoC/MixedLanugageExample/MixedLanugageExample/LabelSwift.swift": [1661528216, 357004165]

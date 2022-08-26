@@ -10,10 +10,10 @@ import UIKit
 
 public class ComponentSwift: NSObject {
 
-    func sayHello(name: String) -> String {
-        let nameForGreeting = name.characters.count == 0 ? "World" : name;
-        let greeting = "Hello " + nameForGreeting + "!";
-        return greeting;
+    @objc func sayHello(_ name: String) -> String {
+        let nameForGreeting = name.count == 0 ? "World" : name
+        let greeting = "Hello " + nameForGreeting + "!"
+        return greeting
     }
     
 }

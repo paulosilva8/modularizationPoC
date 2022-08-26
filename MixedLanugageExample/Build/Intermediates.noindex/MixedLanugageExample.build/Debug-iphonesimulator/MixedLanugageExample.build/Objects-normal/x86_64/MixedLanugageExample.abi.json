@@ -1,0 +1,324 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "MixedLanugageExample",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "LabelSwift",
+      "printedName": "LabelSwift",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "LabelSwift",
+              "printedName": "MixedLanugageExample.LabelSwift",
+              "usr": "c:@M@MixedLanugageExample@objc(cs)LabelSwift"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@MixedLanugageExample@objc(cs)LabelSwift(im)initWithCoder:",
+          "mangledName": "$s20MixedLanugageExample10LabelSwiftC5coderACSo7NSCoderC_tcfc",
+          "moduleName": "MixedLanugageExample",
+          "overriding": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "AccessControl",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(frame:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "LabelSwift",
+              "printedName": "MixedLanugageExample.LabelSwift",
+              "usr": "c:@M@MixedLanugageExample@objc(cs)LabelSwift"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@MixedLanugageExample@objc(cs)LabelSwift(im)initWithFrame:",
+          "mangledName": "$s20MixedLanugageExample10LabelSwiftC5frameACSo6CGRectV_tcfc",
+          "moduleName": "MixedLanugageExample",
+          "overriding": true,
+          "objc_name": "initWithFrame:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "initText",
+          "printedName": "initText()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:20MixedLanugageExample10LabelSwiftC8initTextyyF",
+          "mangledName": "$s20MixedLanugageExample10LabelSwiftC8initTextyyF",
+          "moduleName": "MixedLanugageExample",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@MixedLanugageExample@objc(cs)LabelSwift",
+      "mangledName": "$s20MixedLanugageExample10LabelSwiftC",
+      "moduleName": "MixedLanugageExample",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "AccessControl",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UILabel",
+      "hasMissingDesignatedInitializers": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UILabel",
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "MixedLanugageExample",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ComponentSwift",
+      "printedName": "ComponentSwift",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "sayHello",
+          "printedName": "sayHello(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@MixedLanugageExample@objc(cs)ComponentSwift(im)sayHello:",
+          "mangledName": "$s20MixedLanugageExample14ComponentSwiftC8sayHelloyS2SF",
+          "moduleName": "MixedLanugageExample",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ComponentSwift",
+              "printedName": "MixedLanugageExample.ComponentSwift",
+              "usr": "c:@M@MixedLanugageExample@objc(cs)ComponentSwift"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@MixedLanugageExample@objc(cs)ComponentSwift(im)init",
+          "mangledName": "$s20MixedLanugageExample14ComponentSwiftCACycfc",
+          "moduleName": "MixedLanugageExample",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@MixedLanugageExample@objc(cs)ComponentSwift",
+      "mangledName": "$s20MixedLanugageExample14ComponentSwiftC",
+      "moduleName": "MixedLanugageExample",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

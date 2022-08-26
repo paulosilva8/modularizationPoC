@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "d2510ac09af634e47f616bd7d1a6a0bc1d47fa52ebbc355d3a72577c5a31bde3"
+build_start_time: [1661528427, 292330980]
+build_end_time: [1661528428, 776685953]
+inputs:
+  "/Users/SIP1OVR/Documents/GitHub/modularizationPoC/MixedLanugageExample/MixedLanugageExample/ComponentSwift.swift": [1661528421, 565858840]
+  ? "/Users/SIP1OVR/Documents/GitHub/modularizationPoC/MixedLanugageExample/MixedLanugageExampleTests/ComponentObjectiveCFromSwiftTests.swift"
+  : [1661528216, 358038902]
+  "/Users/SIP1OVR/Documents/GitHub/modularizationPoC/MixedLanugageExample/MixedLanugageExampleTests/ComponentSwiftTests.swift": [1661528216, 358632564]

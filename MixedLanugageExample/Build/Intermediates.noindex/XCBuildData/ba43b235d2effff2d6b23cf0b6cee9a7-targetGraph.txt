@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+MixedLanugageExample in MixedLanugageExample, no dependencies
+MixedLanugageExampleTests in MixedLanugageExample, depends on:
+MixedLanugageExample in MixedLanugageExample (explicit)
+MixedLanugageExampleUITests in MixedLanugageExample, depends on:
+MixedLanugageExample in MixedLanugageExample (explicit)
