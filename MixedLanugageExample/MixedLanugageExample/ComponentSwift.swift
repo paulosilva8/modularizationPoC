@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreFramework
 
 public class ComponentSwift: NSObject {
 
@@ -14,6 +15,10 @@ public class ComponentSwift: NSObject {
         let nameForGreeting = name.count == 0 ? "World" : name
         let greeting = "Hello " + nameForGreeting + "!"
         return greeting
+    }
+    
+    func callCoreDummy() {
+        let coreDummy = CoreDummy()
     }
     
 }
