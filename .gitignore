@@ -1,11 +1,14 @@
 
 MixedLanugageExample/Podfile.lock
+MixedLanugageExample/*.o
+MixedLanugageExample/*.d
+
 *.o
 *.d
 ## User settings
-xcuserdata/
+MixedLanugageExample/xcuserdata/
 
-Build/
+MixedLanugageExample/Build/
 build/
 DerivedData/
 
@@ -45,6 +48,6 @@ Pods/
 #
 # Add this line if you want to avoid checking in source code from the Xcode 
 workspace
-*.xcworkspace
-Podfile.lock
+MixedLanugageExample/*.xcworkspace
+MixedLanugageExample/Podfile.lock
 
