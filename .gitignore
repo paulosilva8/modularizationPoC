@@ -51,3 +51,4 @@ workspace
 MixedLanugageExample/*.xcworkspace
 MixedLanugageExample/Podfile.lock
 
+MixedLanugageExample/Build/Products/Debug-iphonesimulator/MixedLanugageExampleUITests-Runner.app/PlugIns/MixedLanugageExampleUITests.xctest/MixedLanugageExampleUITests
