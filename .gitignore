@@ -52,3 +52,4 @@ MixedLanugageExample/*.xcworkspace
 MixedLanugageExample/Podfile.lock
 
 MixedLanugageExample/Build/Products/Debug-iphonesimulator/MixedLanugageExampleUITests-Runner.app/PlugIns/MixedLanugageExampleUITests.xctest/MixedLanugageExampleUITests
+MixedLanugageExample/Build/Products/Debug-iphonesimulator/MixedLanugageExample.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
