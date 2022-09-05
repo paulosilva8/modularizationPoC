@@ -1,23 +1,23 @@
 //
-//  ViewController.m
+//  ViewControllerObjC.m
 //  MixedLanugageExample
 //
 //  Created by Gergely Orosz on 18/07/2015.
 //  Copyright © 2015 GergelyOrosz. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ViewControllerObjC.h"
 #import "MixedLanugageExample-Swift.h"
 #import "LabelObjectiveC.h"
 
-@interface ViewController ()
+@interface ViewControllerObjC ()
 
 @property (nonatomic, strong, readonly) LabelObjectiveC* labelObjectiveC;
 @property (nonatomic, strong, readonly) LabelSwift* labelSwift;
 
 @end
 
-@implementation ViewController
+@implementation ViewControllerObjC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
