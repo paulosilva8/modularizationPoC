@@ -3,4 +3,5 @@
 //
 
 #import "ComponentObjectiveC.h"
+#import "ViewControllerObjC.h"
 

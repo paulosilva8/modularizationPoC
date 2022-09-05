@@ -18,7 +18,7 @@ final class LoadingCell: UITableViewCell {
     }()
 
     private lazy var loadingIndicator: UIActivityIndicatorView = {
-        let indicator = UIActivityIndicatorView(style: .gray)
+        let indicator = UIActivityIndicatorView(style: .medium)
         return indicator
     }()
 

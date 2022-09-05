@@ -13,7 +13,6 @@
 		2C2EE7D528BE5BA0008D3C38 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EE7D328BE5BA0008D3C38 /* MainInterface.storyboard */; };
 		2C2EE7D928BE5BA0008D3C38 /* ShareAppExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C2EE7CB28BE5BA0008D3C38 /* ShareAppExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2C2EE88128BF88F1008D3C38 /* CoreFramework.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2EE87028BF74B6008D3C38 /* CoreFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2C2EE88528C201EF008D3C38 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE88428C201EF008D3C38 /* HomeVC.swift */; };
 		2C2EE88928C201FE008D3C38 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE88828C201FE008D3C38 /* HistoryVC.swift */; };
 		2C2EE88B28C2020A008D3C38 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE88A28C2020A008D3C38 /* MoreVC.swift */; };
 		2C2EE88E28C20450008D3C38 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE88D28C20450008D3C38 /* APIManager.swift */; };
@@ -45,6 +44,15 @@
 		2C2EE8D428C20D56008D3C38 /* SharedNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8D328C20D56008D3C38 /* SharedNumberFormatter.swift */; };
 		2C2EE8DD28C212AF008D3C38 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8DC28C212AF008D3C38 /* R.generated.swift */; };
 		2C2EE8DF28C237F7008D3C38 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8DE28C237F7008D3C38 /* CustomTabBarController.swift */; };
+		2C2EE8E628C5FBA6008D3C38 /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8E528C5FBA6008D3C38 /* WorkoutsView.swift */; };
+		2C2EE8E828C5FC25008D3C38 /* WorkoutsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8E728C5FC25008D3C38 /* WorkoutsViewModel.swift */; };
+		2C2EE8EA28C5FC59008D3C38 /* WorkoutsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8E928C5FC59008D3C38 /* WorkoutsService.swift */; };
+		2C2EE8EC28C5FC8A008D3C38 /* WorkoutsService+Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8EB28C5FC8A008D3C38 /* WorkoutsService+Live.swift */; };
+		2C2EE8EE28C5FCB6008D3C38 /* WorkoutDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8ED28C5FCB6008D3C38 /* WorkoutDetail.swift */; };
+		2C2EE8F028C5FCD2008D3C38 /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8EF28C5FCD2008D3C38 /* WorkoutCard.swift */; };
+		2C2EE8F228C5FE87008D3C38 /* WorkoutPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F128C5FE87008D3C38 /* WorkoutPlayerVC.swift */; };
+		2C2EE8F428C5FEE4008D3C38 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F328C5FEE4008D3C38 /* Workout.swift */; };
+		2C2EE8FA28C60554008D3C38 /* UIViewController+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F928C60554008D3C38 /* UIViewController+SwiftUI.swift */; };
 		F54CFB8C1B5ABFC90017AC26 /* ComponentSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CFB8B1B5ABFC90017AC26 /* ComponentSwift.swift */; };
 		F54CFB8F1B5AC0DE0017AC26 /* ComponentSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CFB8E1B5AC0DE0017AC26 /* ComponentSwiftTests.swift */; };
 		F54CFB901B5AC1C80017AC26 /* ComponentSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CFB8B1B5ABFC90017AC26 /* ComponentSwift.swift */; };
@@ -54,7 +62,7 @@
 		F54CFB991B5AEF840017AC26 /* ComponentObjectiveCFromSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CFB981B5AEF840017AC26 /* ComponentObjectiveCFromSwiftTests.swift */; };
 		F58537841B5ABA4800DB2AD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F58537831B5ABA4800DB2AD2 /* main.m */; };
 		F58537871B5ABA4800DB2AD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F58537861B5ABA4800DB2AD2 /* AppDelegate.m */; };
-		F585378A1B5ABA4800DB2AD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58537891B5ABA4800DB2AD2 /* ViewController.m */; };
+		F585378A1B5ABA4800DB2AD2 /* ViewControllerObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = F58537891B5ABA4800DB2AD2 /* ViewControllerObjC.m */; };
 		F585378D1B5ABA4800DB2AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F585378B1B5ABA4800DB2AD2 /* Main.storyboard */; };
 		F585378F1B5ABA4800DB2AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F585378E1B5ABA4800DB2AD2 /* Assets.xcassets */; };
 		F58537921B5ABA4800DB2AD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58537901B5ABA4800DB2AD2 /* LaunchScreen.storyboard */; };
@@ -135,7 +143,6 @@
 		2C2EE7D428BE5BA0008D3C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		2C2EE7D628BE5BA0008D3C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C2EE86A28BF74B5008D3C38 /* CoreFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CoreFramework.xcodeproj; path = CoreFramework/CoreFramework.xcodeproj; sourceTree = "<group>"; };
-		2C2EE88428C201EF008D3C38 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		2C2EE88828C201FE008D3C38 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
 		2C2EE88A28C2020A008D3C38 /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
 		2C2EE88D28C20450008D3C38 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
@@ -167,6 +174,15 @@
 		2C2EE8D328C20D56008D3C38 /* SharedNumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedNumberFormatter.swift; sourceTree = "<group>"; };
 		2C2EE8DC28C212AF008D3C38 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		2C2EE8DE28C237F7008D3C38 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		2C2EE8E528C5FBA6008D3C38 /* WorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
+		2C2EE8E728C5FC25008D3C38 /* WorkoutsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewModel.swift; sourceTree = "<group>"; };
+		2C2EE8E928C5FC59008D3C38 /* WorkoutsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsService.swift; sourceTree = "<group>"; };
+		2C2EE8EB28C5FC8A008D3C38 /* WorkoutsService+Live.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkoutsService+Live.swift"; sourceTree = "<group>"; };
+		2C2EE8ED28C5FCB6008D3C38 /* WorkoutDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetail.swift; sourceTree = "<group>"; };
+		2C2EE8EF28C5FCD2008D3C38 /* WorkoutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCard.swift; sourceTree = "<group>"; };
+		2C2EE8F128C5FE87008D3C38 /* WorkoutPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlayerVC.swift; sourceTree = "<group>"; };
+		2C2EE8F328C5FEE4008D3C38 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		2C2EE8F928C60554008D3C38 /* UIViewController+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+SwiftUI.swift"; sourceTree = "<group>"; };
 		F54CFB8A1B5ABFC80017AC26 /* MixedLanugageExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MixedLanugageExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		F54CFB8B1B5ABFC90017AC26 /* ComponentSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentSwift.swift; sourceTree = "<group>"; };
 		F54CFB8D1B5AC0DD0017AC26 /* MixedLanugageExampleTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MixedLanugageExampleTests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -180,8 +196,8 @@
 		F58537831B5ABA4800DB2AD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F58537851B5ABA4800DB2AD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F58537861B5ABA4800DB2AD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F58537881B5ABA4800DB2AD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F58537891B5ABA4800DB2AD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F58537881B5ABA4800DB2AD2 /* ViewControllerObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerObjC.h; sourceTree = "<group>"; };
+		F58537891B5ABA4800DB2AD2 /* ViewControllerObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerObjC.m; sourceTree = "<group>"; };
 		F585378C1B5ABA4800DB2AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F585378E1B5ABA4800DB2AD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F58537911B5ABA4800DB2AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -432,8 +448,24 @@
 			isa = PBXGroup;
 			children = (
 				2C2EE8D328C20D56008D3C38 /* SharedNumberFormatter.swift */,
+				2C2EE8F928C60554008D3C38 /* UIViewController+SwiftUI.swift */,
 			);
 			name = Shared;
+			sourceTree = "<group>";
+		};
+		2C2EE8E428C5FB93008D3C38 /* Workouts */ = {
+			isa = PBXGroup;
+			children = (
+				2C2EE8E528C5FBA6008D3C38 /* WorkoutsView.swift */,
+				2C2EE8E728C5FC25008D3C38 /* WorkoutsViewModel.swift */,
+				2C2EE8E928C5FC59008D3C38 /* WorkoutsService.swift */,
+				2C2EE8EB28C5FC8A008D3C38 /* WorkoutsService+Live.swift */,
+				2C2EE8ED28C5FCB6008D3C38 /* WorkoutDetail.swift */,
+				2C2EE8EF28C5FCD2008D3C38 /* WorkoutCard.swift */,
+				2C2EE8F128C5FE87008D3C38 /* WorkoutPlayerVC.swift */,
+				2C2EE8F328C5FEE4008D3C38 /* Workout.swift */,
+			);
+			name = Workouts;
 			sourceTree = "<group>";
 		};
 		9B5A3EBEC2150FFB60CE9FDA /* Pods */ = {
@@ -471,6 +503,7 @@
 		F58537811B5ABA4800DB2AD2 /* MixedLanugageExample */ = {
 			isa = PBXGroup;
 			children = (
+				2C2EE8E428C5FB93008D3C38 /* Workouts */,
 				2C2EE8DC28C212AF008D3C38 /* R.generated.swift */,
 				2C2EE8D228C20D41008D3C38 /* Shared */,
 				2C2EE8CF28C20CF5008D3C38 /* Services */,
@@ -493,11 +526,10 @@
 				F54CFB941B5ADF290017AC26 /* LabelObjectiveC.m */,
 				F54CFB911B5ACDE30017AC26 /* LabelSwift.swift */,
 				F54CFB8A1B5ABFC80017AC26 /* MixedLanugageExample-Bridging-Header.h */,
-				F58537881B5ABA4800DB2AD2 /* ViewController.h */,
-				F58537891B5ABA4800DB2AD2 /* ViewController.m */,
+				F58537881B5ABA4800DB2AD2 /* ViewControllerObjC.h */,
+				F58537891B5ABA4800DB2AD2 /* ViewControllerObjC.m */,
 				F585378E1B5ABA4800DB2AD2 /* Assets.xcassets */,
 				F58537821B5ABA4800DB2AD2 /* Supporting Files */,
-				2C2EE88428C201EF008D3C38 /* HomeVC.swift */,
 				2C2EE88828C201FE008D3C38 /* HistoryVC.swift */,
 				2C2EE88A28C2020A008D3C38 /* MoreVC.swift */,
 				2C2EE8DE28C237F7008D3C38 /* CustomTabBarController.swift */,
@@ -759,21 +791,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C2EE88528C201EF008D3C38 /* HomeVC.swift in Sources */,
 				2C2EE8C428C20BF6008D3C38 /* Observer.swift in Sources */,
-				F585378A1B5ABA4800DB2AD2 /* ViewController.m in Sources */,
+				F585378A1B5ABA4800DB2AD2 /* ViewControllerObjC.m in Sources */,
 				2C2EE8C928C20C40008D3C38 /* GitHubSearchItem+ViewModel.swift in Sources */,
 				2C2EE8AE28C20877008D3C38 /* RepositoryDetailsViewModel.swift in Sources */,
 				2C2EE89028C20473008D3C38 /* GitHubResource.swift in Sources */,
+				2C2EE8EC28C5FC8A008D3C38 /* WorkoutsService+Live.swift in Sources */,
+				2C2EE8E628C5FBA6008D3C38 /* WorkoutsView.swift in Sources */,
 				F58537B71B5ABB7100DB2AD2 /* ComponentObjectiveC.m in Sources */,
 				2C2EE89A28C2059B008D3C38 /* GitHubSearchController.swift in Sources */,
 				F54CFB951B5ADF290017AC26 /* LabelObjectiveC.m in Sources */,
 				2C2EE88E28C20450008D3C38 /* APIManager.swift in Sources */,
 				2C2EE8C028C20B91008D3C38 /* Array+Subscript.swift in Sources */,
+				2C2EE8F228C5FE87008D3C38 /* WorkoutPlayerVC.swift in Sources */,
 				F58537871B5ABA4800DB2AD2 /* AppDelegate.m in Sources */,
 				2C2EE8B728C20AA0008D3C38 /* RepositoryListViewController.swift in Sources */,
 				2C2EE89828C20531008D3C38 /* RefreshController.swift in Sources */,
 				2C2EE8D128C20D05008D3C38 /* GitHubSearchService.swift in Sources */,
+				2C2EE8F028C5FCD2008D3C38 /* WorkoutCard.swift in Sources */,
 				2C2EE8B928C20AE8008D3C38 /* SearchListCell.swift in Sources */,
 				F58537841B5ABA4800DB2AD2 /* main.m in Sources */,
 				2C2EE8A828C20770008D3C38 /* LabelValueCell.swift in Sources */,
@@ -783,18 +818,23 @@
 				2C2EE8C628C20C14008D3C38 /* UITableViewCell+ReuseIdentifier.swift in Sources */,
 				2C2EE88928C201FE008D3C38 /* HistoryVC.swift in Sources */,
 				2C2EE8DF28C237F7008D3C38 /* CustomTabBarController.swift in Sources */,
+				2C2EE8FA28C60554008D3C38 /* UIViewController+SwiftUI.swift in Sources */,
 				2C2EE89E28C2061C008D3C38 /* HorizontalDivider.swift in Sources */,
 				2C2EE8D428C20D56008D3C38 /* SharedNumberFormatter.swift in Sources */,
 				2C2EE8DD28C212AF008D3C38 /* R.generated.swift in Sources */,
 				2C2EE8CE28C20CD6008D3C38 /* GitHubSearchModel.swift in Sources */,
 				2C2EE8CB28C20C53008D3C38 /* GitHubSearchResponse+DomainModel.swift in Sources */,
 				2C2EE8A128C2068C008D3C38 /* UIFactory.swift in Sources */,
+				2C2EE8EA28C5FC59008D3C38 /* WorkoutsService.swift in Sources */,
 				2C2EE8C228C20BD2008D3C38 /* JSONDecoder+DateStrategy.swift in Sources */,
 				2C2EE89C28C205C0008D3C38 /* GithubSearchResultController.swift in Sources */,
 				2C2EE8B528C20A4C008D3C38 /* LoadingCell.swift in Sources */,
+				2C2EE8E828C5FC25008D3C38 /* WorkoutsViewModel.swift in Sources */,
 				2C2EE8AA28C20803008D3C38 /* RepositoryDetailsViewController.swift in Sources */,
 				F54CFB8C1B5ABFC90017AC26 /* ComponentSwift.swift in Sources */,
+				2C2EE8F428C5FEE4008D3C38 /* Workout.swift in Sources */,
 				2C2EE88B28C2020A008D3C38 /* MoreVC.swift in Sources */,
+				2C2EE8EE28C5FCB6008D3C38 /* WorkoutDetail.swift in Sources */,
 				2C2EE8B328C20A24008D3C38 /* RepositoryListRouter.swift in Sources */,
 				2C2EE8BD28C20B4A008D3C38 /* SearchListCellViewModel.swift in Sources */,
 				2C2EE8AC28C20851008D3C38 /* LabelValueCellViewModel.swift in Sources */,
@@ -990,7 +1030,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1040,7 +1080,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1058,7 +1098,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5UTKWZN2P5;
 				INFOPLIST_FILE = MixedLanugageExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1080,7 +1120,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5UTKWZN2P5;
 				INFOPLIST_FILE = MixedLanugageExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
