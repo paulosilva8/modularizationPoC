@@ -18,7 +18,7 @@ public class ComponentSwift: NSObject {
     }
     
     func callCoreDummy() {
-        let coreDummy = CoreDummy()
+        _ = CoreDummy()
     }
     
 }

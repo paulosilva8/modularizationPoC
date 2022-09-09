@@ -89,24 +89,15 @@ struct R: Rswift.Validatable {
   }
 
   #if os(iOS) || os(tvOS)
-  /// This `R.storyboard` struct is generated, and contains static references to 2 storyboards.
+  /// This `R.storyboard` struct is generated, and contains static references to 1 storyboards.
   struct storyboard {
     /// Storyboard `LaunchScreen`.
     static let launchScreen = _R.storyboard.launchScreen()
-    /// Storyboard `Main`.
-    static let main = _R.storyboard.main()
 
     #if os(iOS) || os(tvOS)
     /// `UIStoryboard(name: "LaunchScreen", bundle: ...)`
     static func launchScreen(_: Void = ()) -> UIKit.UIStoryboard {
       return UIKit.UIStoryboard(resource: R.storyboard.launchScreen)
-    }
-    #endif
-
-    #if os(iOS) || os(tvOS)
-    /// `UIStoryboard(name: "Main", bundle: ...)`
-    static func main(_: Void = ()) -> UIKit.UIStoryboard {
-      return UIKit.UIStoryboard(resource: R.storyboard.main)
     }
     #endif
 
@@ -125,6 +116,36 @@ struct R: Rswift.Validatable {
       return UIKit.UIImage(resource: R.image.xmark_octagon_fill, compatibleWith: traitCollection)
     }
     #endif
+
+    fileprivate init() {}
+  }
+
+  /// This `R.info` struct is generated, and contains static references to 1 properties.
+  struct info {
+    struct uiApplicationSceneManifest {
+      static let _key = "UIApplicationSceneManifest"
+      static let uiApplicationSupportsMultipleScenes = false
+
+      struct uiSceneConfigurations {
+        static let _key = "UISceneConfigurations"
+
+        struct uiWindowSceneSessionRoleApplication {
+          struct defaultConfiguration {
+            static let _key = "Default Configuration"
+            static let uiSceneConfigurationName = infoPlistString(path: ["UIApplicationSceneManifest", "UISceneConfigurations", "UIWindowSceneSessionRoleApplication", "Default Configuration"], key: "UISceneConfigurationName") ?? "Default Configuration"
+            static let uiSceneDelegateClassName = infoPlistString(path: ["UIApplicationSceneManifest", "UISceneConfigurations", "UIWindowSceneSessionRoleApplication", "Default Configuration"], key: "UISceneDelegateClassName") ?? "$(PRODUCT_MODULE_NAME).SceneDelegate"
+
+            fileprivate init() {}
+          }
+
+          fileprivate init() {}
+        }
+
+        fileprivate init() {}
+      }
+
+      fileprivate init() {}
+    }
 
     fileprivate init() {}
   }
@@ -155,9 +176,6 @@ struct _R: Rswift.Validatable {
       #if os(iOS) || os(tvOS)
       try launchScreen.validate()
       #endif
-      #if os(iOS) || os(tvOS)
-      try main.validate()
-      #endif
     }
 
     #if os(iOS) || os(tvOS)
@@ -166,22 +184,6 @@ struct _R: Rswift.Validatable {
 
       let bundle = R.hostingBundle
       let name = "LaunchScreen"
-
-      static func validate() throws {
-        if #available(iOS 11.0, tvOS 11.0, *) {
-        }
-      }
-
-      fileprivate init() {}
-    }
-    #endif
-
-    #if os(iOS) || os(tvOS)
-    struct main: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
-      typealias InitialController = CustomTabBarController
-
-      let bundle = R.hostingBundle
-      let name = "Main"
 
       static func validate() throws {
         if #available(iOS 11.0, tvOS 11.0, *) {

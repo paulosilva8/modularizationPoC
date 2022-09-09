@@ -9,9 +9,9 @@
 import Foundation
 
 final class APIManager {
-    static let shared = APIManager()
+    //static let shared = APIManager()
     private struct UnknownError: Error {}
-    private init() {}
+    init() {}
 
     typealias Result = Swift.Result<(Data, URLResponse), Error>
 
